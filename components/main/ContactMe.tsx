@@ -11,7 +11,7 @@ export default function ContactMe() {
   return (
     <div className="text-center">
       <h1 className="text-[40px] text-white font-medium text">
-        Let's connect!
+        Let&apos;s connect!
       </h1>
 
       <div className="flex justify-center ml-80 -mt-10">
