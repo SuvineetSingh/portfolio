@@ -1,7 +1,17 @@
 import React from "react";
 import { MdBusinessCenter } from "react-icons/md";
 
-export default function ExperienceItem({ date, title, description }) {
+interface ExperienceProps {
+  date: string;
+  title: string;
+  description: string;
+}
+
+export default function ExperienceItem({
+  date,
+  title,
+  description,
+}: ExperienceProps) {
   return (
     <div className="mb-10 justify-center w-full">
       <MdBusinessCenter />

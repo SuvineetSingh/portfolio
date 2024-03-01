@@ -1,7 +1,17 @@
 import React from "react";
 import { FaSchoolFlag } from "react-icons/fa6";
 
-export default function EducationItem({ year, title, university }) {
+interface EducationProps {
+  year: string;
+  title: string;
+  university: string;
+}
+
+export default function EducationItem({
+  year,
+  title,
+  university,
+}: EducationProps) {
   return (
     <div className="mb-4 w-full">
       <FaSchoolFlag />
