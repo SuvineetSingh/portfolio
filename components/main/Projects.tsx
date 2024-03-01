@@ -14,20 +14,20 @@ const Projects = () => {
         <ProjectCard
           link="https://rent-property-two.vercel.app/"
           src="/rent-image.png"
-          title="Modern Renting Website"
+          title="Renting apartments Website"
           description="Modern renting website made with Next.js and Tailwind "
         />
         <ProjectCard
           link="https://trail-buddy-chi.vercel.app/"
           src="/trailbuddy.png"
-          title="Modern Camping Guide"
+          title="Camping Guide"
           description="Travel website made with Next.js and Tailwind"
         />
         <ProjectCard
-          link="https://github.com/SuvineetSingh/NewsWebsite"
-          src="/newsWebsite.png"
-          title="News Website"
-          description="News website made with React, Javascript, Bootstrap, newsAPI.org"
+          link="https://github.com/SuvineetSingh/Portfolio"
+          src="/myportfolio.png"
+          title="My Portfolio"
+          description="You are experiencing this one. right now!"
         />
       </div>
     </div>

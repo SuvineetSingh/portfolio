@@ -1,8 +1,8 @@
-// // /** @type {import('next').NextConfig} */
-// // const nextConfig = {}
+// /** @type {import('next').NextConfig} */
 
-// // module.exports = nextConfig
-// const withBundleAnalyzer = require('@next/bundle-analyzer')({
-//     enabled: process.env.ANALYZE === 'true',
-//   })
-//   module.exports = withBundleAnalyzer({})
+// module.exports = {
+//     eslint:{
+//         ignoreDuringBuilds: true,
+
+//     }
+// }

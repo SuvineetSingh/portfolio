@@ -11,11 +11,16 @@ export default function ContactMe() {
   return (
     <div className="text-center">
       <h1 className="text-[40px] text-white font-medium text">
-        Let&apos;s connect!
+        Want to work together? <br /> Let&apos;s connect!
       </h1>
 
       <div className="flex justify-center ml-80 -mt-10">
-        <Image src="/downArrowWhite.svg" alt="Down Arrow White" />
+        <Image
+          src="/downArrowWhite.svg"
+          alt="Down Arrow White"
+          width={150}
+          height={150}
+        />
       </div>
       <div className="flex flex-row gap-5 justify-center mb-20 -mt-10">
         {Socials.map((social) => (
